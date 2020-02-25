@@ -1,0 +1,219 @@
+
+.bannerSize {
+	width: 300px;
+	height: 600px;
+}
+
+#text1_1_container, 
+#text1_2_container,
+#text2_1_container,
+#text3_1_container,
+#text4_1_container,
+#text4_2_container,
+#image1_1_container,
+#image2_1_container,
+#image3_1_container,
+#image4_1_container {
+	border: 3px solid #bcbcbc;
+}
+
+#logo {
+	background: url("../img/logo.png");
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 0;
+	left: 0;
+	background-size: contain;
+}
+
+#text1_1 {
+	background: url("../img/text1_1.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+#text1_1_container {
+	position: absolute;
+	width: 300px;
+	height: 175.5px;
+	top: -3px;
+	left: -2px;
+	background-color: black;
+}
+
+#text1_2 {
+	background: url("../img/text1_2.png");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+
+#text1_2_container {
+	position: absolute;
+	width: 300px;
+	height: 76.5px;
+	top: 172px;
+	left: -2px;
+	background-color: black;
+}
+
+#image1_1 {
+	background: no-repeat url("../img/image1_1.jpg");
+	position: absolute;
+	transform: scale(1.1);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 9px;
+	background-size: cover;
+}
+
+#image1_1_container {
+	overflow: hidden;
+	position: absolute;
+	width: 320px;
+	height: 372.5px;
+	bottom:-30px;
+	left: -2px;
+	background-color: black;
+}
+
+#text2_1 {
+	background: no-repeat url("../img/text2_1.png");
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+
+#text2_1_container {
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	height: 231px;
+	top: 106px;
+	left: -2px;
+	background-color: black;
+}
+
+#image2_1 {
+	background: no-repeat url("../img/image2_1.jpg");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	bottom: 0px;
+	left: 0px;
+}
+
+#image2_1_container {
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	height: 259px;
+	bottom: -2px;
+	left: -2px;
+	background-color: black;
+}
+
+#text3_1 {
+	background: url("../img/text3_1.png");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover
+}
+
+#text3_1_container {
+	position: absolute;
+	width: 300px;
+	height: 183.5px;
+	top: -2px;
+	left: -2px;
+	background-color: black;
+}
+
+#image3_1 {
+	background: no-repeat url("../img/image3_1.jpg");
+	position: absolute;
+	width: 100%;
+	height: 200%;
+	top: -30px;
+	left: 0;
+	background-size: cover;
+}
+
+#image3_1_container {
+	overflow: hidden;
+	position: absolute;
+	width: 300px;
+	height: 383px;
+	bottom: -144px;
+	left: -2px;
+	background-color: black;
+}
+
+#text4_1 {
+	background: url("../img/text4_1.png");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+
+#text4_1_container {
+	position: absolute;
+	width: 300px;
+	height: 128.5px;
+	top: -2px;
+	left: -3px;
+	background-color: black;
+}
+
+#text4_2 {
+	background: url("../img/text4_2.png");
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#text4_2_container {
+	position: absolute;
+	width: 300px;
+	height: 99.5px;
+	top: 130px;
+	left: -2px;
+	background-color: black;
+}
+
+#cta {
+	overflow: hidden;
+	position: absolute;
+	background: url(../img/cta.jpg);
+	width: 146px;
+	height: 47.5px;
+	left: 79px;
+	bottom: 94px;
+	background-size: cover;
+}
+
+#sheen {
+	position: absolute;
+	background: url(../img/sheen.png);
+	width: 74px;
+	height: 48px;
+	top: 0px;
+	left: -74px;
+}

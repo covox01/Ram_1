@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="ad.size" content="width=300,height=600">
+	<title>Client_Campaign_300x600</title>
+	<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.1.2_min.js"></script>
+	<script type="text/javascript">var clickTag = "http://www.google.com";</script>
+	<link href="css/default.min.css" rel="stylesheet" media="all">
+	<link href="css/style.css" rel="stylesheet" media="all">
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="bannerSize" id="viewport">
+
+	<!-- ----- Frame 1 ----- -->
+		<div id="image1_1_container">
+			<div id="image1_1"></div>
+		</div>
+		<div id="text1_1_container">
+			<div id="text1_1"></div>
+		</div>
+		<div id="text1_2_container">
+			<div id="text1_2"></div>
+		</div>
+
+	<!-- ----- Frame 2 ----- -->
+		<div id="image2_1_container">
+			<div id="image2_1"></div>
+		</div>
+		<div id="text2_1_container">
+			<div id="text2_1"></div>
+		</div>
+
+	<!-- ----- Frame 3 ----- -->
+		<div id="image3_1_container">
+			<div id="image3_1"></div>
+		</div>
+		<div id="text3_1_container">
+			<div id="text3_1"></div>
+		</div>
+
+	<!-- ----- Frame 4 ----- -->
+		<div id="text4_1_container">
+			<div id="text4_1"></div>
+		</div>
+		<div id="text4_2_container">
+			<div id="text4_2"></div>
+		</div>
+
+		<div id="cta">
+			<div id="sheen"></div>
+		</div>
+		<div id="gradient"></div>
+
+		<div id="logo">
+		</div>
+		<div class="bannerSize" id="border"></div>
+		<a class="bannerSize" id="clickable" href="javascript:window.open(window.clickTag)"></a>
+
+	</div>
+
+	<script type="text/javascript">
+		var imgloads = document.querySelectorAll('div,img,svg');
+		var imgcount = 0;
+		if (window.NodeList && !NodeList.prototype.forEach) {
+			NodeList.prototype.forEach = Array.prototype.forEach;
+		}
+		imgloads.forEach(function (img) { img.style.opacity = 0; })
+		window.addEventListener("DOMContentLoaded", function () {
+			imgloads.forEach(function (img) {
+				imagesLoaded(img, { background: true }, function () {
+					imgcount++;
+					if (imgcount === imgloads.length) {
+						init();
+					}
+				})
+			})
+		}, false);
+	</script>
+</body>
+
+</html>
